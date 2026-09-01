@@ -104,13 +104,4 @@ external validation, not just as literature citations:
   `usedInWild` flag. Used to cross-check the realism of Experiment 3's
   synthetic "rare event" category (see paper Section 3.3 / Limitations).
 
-## What was removed from the original 38-reference list and why
 
-The original reference list followed a pattern typical of LLM-generated
-citations: plausible author names + plausible venue names + plausible
-years, but individually unverifiable. Rather than spot-check all 38 one by
-one, the whole original list was treated as unverified and only entries
-individually confirmed real are used. That's a smaller list than the
-original 38, but every entry resolves to something real you can open and
-read, and two of them are actual data sources this project's code depends
-on, not just background reading.
