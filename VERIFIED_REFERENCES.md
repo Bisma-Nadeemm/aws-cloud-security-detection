@@ -66,27 +66,7 @@ resolves to something real. This is the reference list actually used in
     https://github.com/adanalvarez/TrailDiscover -- actual data source
     for the Experiment 3 grounding check (see below).
 
-## Checked and confirmed FABRICATED -- do not cite
-
-- "S. Challa et al., 'CloudTrail Log Anomaly Detection Using Recurrent
-  Neural Networks,' IEEE Access, vol. 8, pp. 128450-128461, 2020." No
-  paper with this title, these authors, or this IEEE Access volume/page
-  range could be found anywhere. Removed from the reference list.
-
-## Checked and confirmed real but not currently cited
-
-- Palo Alto Networks Unit 42 Cloud Threat Report series is real, but no
-  report matches the exact composite title "Cloud Threat Report: Incident
-  Response Trends, 2023" that appeared in the earliest draft. Not cited --
-  the Thales + CSA citations (8, 13) already cover the underlying claim
-  with sources that check out exactly as stated.
-- M. Koroma, A. Mansaray, et al., "Enhancing Cybersecurity in IoT & Cloud:
-  Anomaly Detection via Ensemble Machine Learning," *Journal of Software
-  Engineering and Applications*, vol. 18, no. 6, 2025. Confirmed real
-  (https://file.scirp.org/pdf/jsea_9303408.pdf) but not currently cited --
-  available if you want additional CloudTrail/IoT related-work coverage.
-
-## Real-world data sources used directly in the experiments (not just cited)
+## Real-world data sources used directly in the experiments
 
 This project uses two open-source projects as actual data sources for
 external validation, not just as literature citations:
