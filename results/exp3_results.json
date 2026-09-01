@@ -1,0 +1,9 @@
+{
+  "dataset_size": 50000,
+  "true_anomaly_count": 1500,
+  "flagged_count": 1500,
+  "flagged_rate": 0.03,
+  "genuine_anomalies_pct_of_flagged": 0.974,
+  "noise_outliers_pct_of_flagged": 0.026,
+  "recall_on_true_anomalies": 0.974
+}

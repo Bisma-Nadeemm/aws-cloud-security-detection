@@ -1,0 +1,184 @@
+{
+  "source": "salesforce/cloudsplaining test fixture (real AWS-managed policy documents, not synthetic)",
+  "total_real_policies_loaded": 30,
+  "labeled_for_evaluation": 19,
+  "excluded_ambiguous_by_name": [
+    "AWSCodeCommitPowerUser",
+    "AWSElasticLoadBalancingServiceRolePolicy",
+    "AWSOrganizationsServiceTrustPolicy",
+    "AWSConfigRole",
+    "SecurityAudit",
+    "AWSSupportServiceRolePolicy",
+    "AWSTrustedAdvisorServiceRolePolicy",
+    "AWSAccountUsageReportAccess",
+    "AWSKeyManagementServicePowerUser",
+    "AWSVPCTransitGatewayServiceRolePolicy",
+    "CloudWatch-CrossAccountAccess"
+  ],
+  "rule_based_on_real_policies": {
+    "accuracy": 0.8421,
+    "precision": 0.8421,
+    "recall": 1.0,
+    "tp": 16,
+    "fp": 3,
+    "fn": 0,
+    "tn": 0
+  },
+  "random_forest_original_features_on_real_policies": {
+    "accuracy": 0.4211,
+    "precision": 0.8571,
+    "recall": 0.375,
+    "tp": 6,
+    "fp": 1,
+    "fn": 10,
+    "tn": 2
+  },
+  "random_forest_generalized_features_on_real_policies": {
+    "accuracy": 0.8421,
+    "precision": 0.9333,
+    "recall": 0.875,
+    "tp": 14,
+    "fp": 1,
+    "fn": 2,
+    "tn": 2
+  },
+  "random_forest_generalized_features_on_synthetic_test_set_sanity_check": {
+    "accuracy": 0.9833,
+    "recall": 0.9583
+  },
+  "per_policy_detail": [
+    {
+      "policy": "AmazonRDSFullAccess",
+      "true_label": "risky",
+      "rule_flagged": true,
+      "rf_original_flagged": false,
+      "rf_generalized_flagged": true
+    },
+    {
+      "policy": "AmazonEC2FullAccess",
+      "true_label": "risky",
+      "rule_flagged": true,
+      "rf_original_flagged": false,
+      "rf_generalized_flagged": true
+    },
+    {
+      "policy": "AWSCodeCommitFullAccess",
+      "true_label": "risky",
+      "rule_flagged": true,
+      "rf_original_flagged": false,
+      "rf_generalized_flagged": true
+    },
+    {
+      "policy": "AmazonSQSFullAccess",
+      "true_label": "risky",
+      "rule_flagged": true,
+      "rf_original_flagged": true,
+      "rf_generalized_flagged": true
+    },
+    {
+      "policy": "AWSLambdaFullAccess",
+      "true_label": "risky",
+      "rule_flagged": true,
+      "rf_original_flagged": true,
+      "rf_generalized_flagged": true
+    },
+    {
+      "policy": "IAMFullAccess",
+      "true_label": "risky",
+      "rule_flagged": true,
+      "rf_original_flagged": true,
+      "rf_generalized_flagged": true
+    },
+    {
+      "policy": "AmazonS3FullAccess",
+      "true_label": "risky",
+      "rule_flagged": true,
+      "rf_original_flagged": true,
+      "rf_generalized_flagged": true
+    },
+    {
+      "policy": "AmazonVPCReadOnlyAccess",
+      "true_label": "safe",
+      "rule_flagged": true,
+      "rf_original_flagged": false,
+      "rf_generalized_flagged": false
+    },
+    {
+      "policy": "CloudWatchFullAccess",
+      "true_label": "risky",
+      "rule_flagged": true,
+      "rf_original_flagged": false,
+      "rf_generalized_flagged": true
+    },
+    {
+      "policy": "AWSDirectoryServiceFullAccess",
+      "true_label": "risky",
+      "rule_flagged": true,
+      "rf_original_flagged": false,
+      "rf_generalized_flagged": true
+    },
+    {
+      "policy": "AWSCodeDeployFullAccess",
+      "true_label": "risky",
+      "rule_flagged": true,
+      "rf_original_flagged": false,
+      "rf_generalized_flagged": true
+    },
+    {
+      "policy": "AWSCloudTrailFullAccess",
+      "true_label": "risky",
+      "rule_flagged": true,
+      "rf_original_flagged": false,
+      "rf_generalized_flagged": true
+    },
+    {
+      "policy": "AdministratorAccess",
+      "true_label": "risky",
+      "rule_flagged": true,
+      "rf_original_flagged": true,
+      "rf_generalized_flagged": true
+    },
+    {
+      "policy": "AmazonS3ReadOnlyAccess",
+      "true_label": "safe",
+      "rule_flagged": true,
+      "rf_original_flagged": true,
+      "rf_generalized_flagged": true
+    },
+    {
+      "policy": "AmazonSESFullAccess",
+      "true_label": "risky",
+      "rule_flagged": true,
+      "rf_original_flagged": true,
+      "rf_generalized_flagged": true
+    },
+    {
+      "policy": "AmazonVPCFullAccess",
+      "true_label": "risky",
+      "rule_flagged": true,
+      "rf_original_flagged": false,
+      "rf_generalized_flagged": false
+    },
+    {
+      "policy": "IAMReadOnlyAccess",
+      "true_label": "safe",
+      "rule_flagged": true,
+      "rf_original_flagged": false,
+      "rf_generalized_flagged": false
+    },
+    {
+      "policy": "AmazonRoute53FullAccess",
+      "true_label": "risky",
+      "rule_flagged": true,
+      "rf_original_flagged": false,
+      "rf_generalized_flagged": true
+    },
+    {
+      "policy": "PowerUserAccess",
+      "true_label": "risky",
+      "rule_flagged": true,
+      "rf_original_flagged": false,
+      "rf_generalized_flagged": false
+    }
+  ]
+}

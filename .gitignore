@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# LaTeX build artifacts (keep paper_final.pdf itself, ignore intermediates)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Cloned external repos used only for real-world validation --
+# regenerate with the commands in README.md rather than committing
+# someone else's repo into this one
+realworld_repo/
+realworld_repo2/
+realworld_repo3/
+realworld_repo4/
+
+# OS
+.DS_Store
+Thumbs.db

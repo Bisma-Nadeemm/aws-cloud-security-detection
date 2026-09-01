@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the accompanying paper."
+title: "AWS Cloud Security Detection: A Comparative Evaluation of Rule-Based and Machine Learning Methods"
+authors:
+  - family-names: Nadeem
+    given-names: Bisma
+    affiliation: "Independent Researcher, Lahore, Pakistan (B.S. Computer Science, PUCIT, University of the Punjab, 2024)"
+    email: bismanadeempucit@gmail.com
+  - family-names: Noor-ul-Ain
+    given-names: ""
+    affiliation: "Independent Researcher, Lahore, Pakistan (B.S. Computer Science, PUCIT, University of the Punjab, 2024)"
+    email: noorulain.pucit@gmail.com
+type: software
+license: MIT
+preferred-citation:
+  type: article
+  title: "AWS Cloud Security Detection: A Comparative Evaluation of Rule-Based and Machine Learning Methods"
+  authors:
+    - family-names: Nadeem
+      given-names: Bisma
+    - family-names: Noor-ul-Ain
+      given-names: ""
+  journal: "Target journal to be specified"
+  year: 2026
+  status: "draft"

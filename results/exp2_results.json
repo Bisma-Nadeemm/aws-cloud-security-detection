@@ -1,0 +1,44 @@
+{
+  "dataset_size": 1280,
+  "malicious_sessions": 200,
+  "test_set_size": 320,
+  "baseline_model_w4": {
+    "accuracy": 0.9938,
+    "precision": 0.9615,
+    "recall": 1.0,
+    "f1": 0.9804,
+    "false_positive_rate": 0.0074
+  },
+  "adversarial_evaluation_baseline_w4": {
+    "scenario": "6 sensitive calls spread across a 50-call session",
+    "trials": 200,
+    "detected": 6,
+    "recall_on_adversarial": 0.03
+  },
+  "multiwindow_model_w4_w10_w20": {
+    "accuracy": 0.9938,
+    "precision": 0.9615,
+    "recall": 1.0,
+    "f1": 0.9804,
+    "false_positive_rate": 0.0074
+  },
+  "adversarial_evaluation_multiwindow": {
+    "scenario": "6 sensitive calls spread across a 50-call session",
+    "trials": 200,
+    "detected": 6,
+    "recall_on_adversarial": 0.03
+  },
+  "multiwindow_model_plus_adversarial_training": {
+    "accuracy": 0.9971,
+    "precision": 0.9868,
+    "recall": 1.0,
+    "f1": 0.9934,
+    "false_positive_rate": 0.0037
+  },
+  "adversarial_evaluation_after_adversarial_training": {
+    "scenario": "6 sensitive calls spread across a 50-call session",
+    "trials": 200,
+    "detected": 200,
+    "recall_on_adversarial": 1.0
+  }
+}
